@@ -1,0 +1,17 @@
+Malik HARRIZ
+malik.h@webdevpro.net
+
+Conception de base de données
+
+------------------
+
+support de cours :
+url : https://formation.webdevpro.net/sgbd
+login : sgbd
+password : sgbd
+
+------------------
+
+toutes les notes de cours vont être partagées sur un github
+
+

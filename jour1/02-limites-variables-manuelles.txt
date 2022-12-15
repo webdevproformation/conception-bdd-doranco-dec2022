@@ -1,0 +1,390 @@
+très grande variable 
+
+=> json generator ??? => https://json-generator.com/ > Bouton generate > Copy Json 
+
+[
+  {
+    "_id": "639adbd58fb28b02f7ed1e8d",
+    "index": 0,
+    "guid": "a9a43642-613d-44f4-8023-ef3e74e28894",
+    "isActive": false,
+    "balance": "$3,375.82",
+    "picture": "http://placehold.it/32x32",
+    "age": 33,
+    "eyeColor": "blue",
+    "name": "Gould Russell",
+    "gender": "male",
+    "company": "TOURMANIA",
+    "email": "gouldrussell@tourmania.com",
+    "phone": "+1 (991) 427-2732",
+    "address": "296 Forest Place, Layhill, Marshall Islands, 964",
+    "about": "Consequat mollit occaecat ad proident dolore ex excepteur pariatur ad culpa mollit magna deserunt. Labore ad ad commodo voluptate laborum voluptate ipsum consequat fugiat tempor veniam. Esse ea veniam sint officia.\r\n",
+    "registered": "2017-02-24T08:32:30 -01:00",
+    "latitude": 40.660082,
+    "longitude": -2.72012,
+    "tags": [
+      "occaecat",
+      "reprehenderit",
+      "mollit",
+      "nisi",
+      "pariatur",
+      "est",
+      "in"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Marisa Stein"
+      },
+      {
+        "id": 1,
+        "name": "Gross Owen"
+      },
+      {
+        "id": 2,
+        "name": "Bertie Cardenas"
+      }
+    ],
+    "greeting": "Hello, Gould Russell! You have 1 unread messages.",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "639adbd554834b28c716baa2",
+    "index": 1,
+    "guid": "fc75f48f-7657-49c8-8f34-1c0e9aac8e33",
+    "isActive": true,
+    "balance": "$2,188.85",
+    "picture": "http://placehold.it/32x32",
+    "age": 21,
+    "eyeColor": "blue",
+    "name": "Castillo Kane",
+    "gender": "male",
+    "company": "RUBADUB",
+    "email": "castillokane@rubadub.com",
+    "phone": "+1 (871) 537-2398",
+    "address": "277 Himrod Street, Foxworth, Alaska, 8288",
+    "about": "Do voluptate et ea do consequat. Sit Lorem elit mollit incididunt commodo ipsum reprehenderit nostrud excepteur commodo sint. Amet proident elit et adipisicing sint Lorem aliqua dolor cillum eu officia exercitation. Sint pariatur Lorem tempor aute. Id laboris aliquip consequat quis amet exercitation in non voluptate. Labore pariatur exercitation duis cillum exercitation exercitation fugiat incididunt.\r\n",
+    "registered": "2019-08-16T04:23:43 -02:00",
+    "latitude": -18.895106,
+    "longitude": 120.068296,
+    "tags": [
+      "in",
+      "laborum",
+      "enim",
+      "anim",
+      "amet",
+      "ex",
+      "Lorem"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Sondra Britt"
+      },
+      {
+        "id": 1,
+        "name": "Ester Massey"
+      },
+      {
+        "id": 2,
+        "name": "Sherry Lucas"
+      }
+    ],
+    "greeting": "Hello, Castillo Kane! You have 4 unread messages.",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "639adbd5b24e6a84e5419ae2",
+    "index": 2,
+    "guid": "8ec9d840-9806-4d52-9918-0207b59c6272",
+    "isActive": true,
+    "balance": "$3,724.02",
+    "picture": "http://placehold.it/32x32",
+    "age": 28,
+    "eyeColor": "blue",
+    "name": "Verna Adams",
+    "gender": "female",
+    "company": "TSUNAMIA",
+    "email": "vernaadams@tsunamia.com",
+    "phone": "+1 (997) 470-3580",
+    "address": "859 Cypress Avenue, Bloomington, Oregon, 6914",
+    "about": "Eu laboris elit deserunt aute do labore dolor incididunt. Enim ut ipsum sint ad mollit est voluptate velit sunt. Sunt qui eu sit et eiusmod sit sit velit ut ea exercitation veniam voluptate sint. Aliquip aute nulla dolore excepteur aute proident laborum enim labore aliquip culpa tempor. Tempor adipisicing enim do nostrud enim non non fugiat esse.\r\n",
+    "registered": "2018-09-10T12:19:33 -02:00",
+    "latitude": 67.757647,
+    "longitude": 12.321335,
+    "tags": [
+      "aliqua",
+      "fugiat",
+      "excepteur",
+      "dolore",
+      "nisi",
+      "labore",
+      "fugiat"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Rebecca Parks"
+      },
+      {
+        "id": 1,
+        "name": "Williamson Aguilar"
+      },
+      {
+        "id": 2,
+        "name": "Amy Levine"
+      }
+    ],
+    "greeting": "Hello, Verna Adams! You have 7 unread messages.",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "639adbd51d1f95de1f2b9bac",
+    "index": 3,
+    "guid": "66d871ab-bd3b-4e8d-a486-68cc4b9839fd",
+    "isActive": true,
+    "balance": "$3,427.48",
+    "picture": "http://placehold.it/32x32",
+    "age": 40,
+    "eyeColor": "brown",
+    "name": "Rios Potter",
+    "gender": "male",
+    "company": "TROLLERY",
+    "email": "riospotter@trollery.com",
+    "phone": "+1 (946) 472-2876",
+    "address": "365 Prospect Place, Colton, North Carolina, 7595",
+    "about": "Fugiat aliqua proident officia eiusmod reprehenderit aute sunt qui deserunt adipisicing deserunt esse minim sit. Do elit est do reprehenderit minim Lorem amet reprehenderit eiusmod id exercitation sint dolor. Do quis cillum tempor laboris dolor sint labore culpa qui tempor. Aute nisi mollit eu dolore ut dolore occaecat ea mollit pariatur ea culpa. Culpa magna cillum consectetur Lorem fugiat laboris nostrud. Minim elit minim aliqua in.\r\n",
+    "registered": "2019-03-03T03:30:14 -01:00",
+    "latitude": -76.449417,
+    "longitude": -28.961939,
+    "tags": [
+      "aliqua",
+      "eiusmod",
+      "aliquip",
+      "reprehenderit",
+      "cillum",
+      "ad",
+      "sunt"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Warner Aguirre"
+      },
+      {
+        "id": 1,
+        "name": "Regina Combs"
+      },
+      {
+        "id": 2,
+        "name": "Austin Cote"
+      }
+    ],
+    "greeting": "Hello, Rios Potter! You have 4 unread messages.",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "639adbd53f02dd6808d33bfe",
+    "index": 4,
+    "guid": "ff45b1c2-f397-43f7-b760-3c0b3033d8f8",
+    "isActive": false,
+    "balance": "$2,571.81",
+    "picture": "http://placehold.it/32x32",
+    "age": 40,
+    "eyeColor": "brown",
+    "name": "Hill Larsen",
+    "gender": "male",
+    "company": "AMTAP",
+    "email": "hilllarsen@amtap.com",
+    "phone": "+1 (962) 505-3290",
+    "address": "300 Falmouth Street, Canby, Nevada, 435",
+    "about": "Dolor ad qui adipisicing magna officia et minim deserunt consequat culpa dolor ipsum. Nulla tempor dolor consequat adipisicing. In Lorem dolor officia ullamco nulla quis. Duis ad sit commodo qui ullamco sit aliqua minim. Dolor dolore reprehenderit sunt magna nostrud irure ea deserunt. Sit ut in sunt non id ut. Id non mollit sit aute mollit sint exercitation pariatur fugiat sint.\r\n",
+    "registered": "2018-09-07T04:26:18 -02:00",
+    "latitude": -10.868179,
+    "longitude": -154.4519,
+    "tags": [
+      "incididunt",
+      "cupidatat",
+      "est",
+      "anim",
+      "consectetur",
+      "anim",
+      "do"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Compton Colon"
+      },
+      {
+        "id": 1,
+        "name": "Hurley Santiago"
+      },
+      {
+        "id": 2,
+        "name": "Elsie Porter"
+      }
+    ],
+    "greeting": "Hello, Hill Larsen! You have 2 unread messages.",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "639adbd50a23dbf6ba914842",
+    "index": 5,
+    "guid": "b59c37d5-f707-46ee-82bc-1563e8f0c245",
+    "isActive": true,
+    "balance": "$2,699.78",
+    "picture": "http://placehold.it/32x32",
+    "age": 33,
+    "eyeColor": "green",
+    "name": "Conrad Buckner",
+    "gender": "male",
+    "company": "VOLAX",
+    "email": "conradbuckner@volax.com",
+    "phone": "+1 (994) 555-3747",
+    "address": "659 Albany Avenue, Crucible, Missouri, 8605",
+    "about": "Sint cupidatat eiusmod nulla consequat eiusmod fugiat. Do magna sit id incididunt laborum veniam anim minim quis aliquip. Mollit ipsum cillum consequat ad non sit enim aliquip ullamco voluptate adipisicing non enim. Elit est aliqua nisi minim in ad elit aliquip ea et. Culpa eiusmod id quis est in proident consectetur ad. Ad commodo cillum ut esse id consectetur velit qui veniam labore ipsum nisi.\r\n",
+    "registered": "2020-02-12T09:38:34 -01:00",
+    "latitude": -77.466179,
+    "longitude": 148.978916,
+    "tags": [
+      "commodo",
+      "aliquip",
+      "excepteur",
+      "do",
+      "esse",
+      "cillum",
+      "ad"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Lopez Hines"
+      },
+      {
+        "id": 1,
+        "name": "Weeks Lowery"
+      },
+      {
+        "id": 2,
+        "name": "Willie Fletcher"
+      }
+    ],
+    "greeting": "Hello, Conrad Buckner! You have 3 unread messages.",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "639adbd57b273a56480a5b1b",
+    "index": 6,
+    "guid": "00292051-fb4d-4886-aeea-f0af1f7e52b2",
+    "isActive": true,
+    "balance": "$1,959.29",
+    "picture": "http://placehold.it/32x32",
+    "age": 39,
+    "eyeColor": "green",
+    "name": "Patti Burt",
+    "gender": "female",
+    "company": "UPDAT",
+    "email": "pattiburt@updat.com",
+    "phone": "+1 (946) 584-2930",
+    "address": "253 Lake Place, Bluetown, Maryland, 2526",
+    "about": "Lorem sit officia voluptate consectetur adipisicing dolor. Pariatur cupidatat proident do culpa culpa tempor do nisi veniam. Sint culpa amet qui aliqua. Amet minim ut fugiat nostrud et consectetur esse enim sit cillum labore nisi aliquip. Proident fugiat quis aute incididunt et proident sint. Amet cillum eu veniam officia Lorem. Tempor aliquip veniam Lorem proident pariatur consectetur id laboris eu elit sunt consequat laboris occaecat.\r\n",
+    "registered": "2022-02-14T03:26:04 -01:00",
+    "latitude": 20.47643,
+    "longitude": 50.526674,
+    "tags": [
+      "id",
+      "eiusmod",
+      "ea",
+      "quis",
+      "sint",
+      "esse",
+      "ullamco"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Tracy Sears"
+      },
+      {
+        "id": 1,
+        "name": "Estella Hawkins"
+      },
+      {
+        "id": 2,
+        "name": "Carroll Crosby"
+      }
+    ],
+    "greeting": "Hello, Patti Burt! You have 10 unread messages.",
+    "favoriteFruit": "apple"
+  }
+]
+
+=> variable de 315 lignes 
+
+=> problème pour la maintenance 
+- ajouter une valeur pour chaque enregistement => complexe
+- gros risques faire tomber le code avec l'oublie d'un séparateur 
+- erreur dans l'ordre de la variable => perte de cohérence 
+
+=> problème de sécurité 
+=> données sensibles numéro de carte bleue / salaire / password / .... 
+=> les données sont visibles même si les données sont cryptés ou hashés
+
+
+=> histoire la base de données 
+=> https://fr.wikipedia.org/wiki/Syst%C3%A8me_de_gestion_de_base_de_donn%C3%A9es#Histoire
+
+idée des bases de données => 1960 
+
+=> projet Apollo => créer des fusées 
+
+=> créer un système qui permet de stocker et récupérer 
+de manière fiable des grosses quantités de données 
+
+=>  En 1970 Edgar Frank Codd, ingénieur chez IBM 
+
+=> créer le concept des bases de données Relationnelles 
+et le langage SQL (manipuler avec fiabilité des bases des données)
+
+
+Base de Données => 
+
+Base de données Relationnelles : Oracle / MySQL / PostGRE / MariaDB / SQlite 
+Base de Données NoSQL (MongoDB CouchDB ... CassadraDB Redis) => js / express 
+new SQL => milliard de requêtes toutes les secondes 
+
+Base de données Relationnelles :
+ACID 
+Atomicite 
+Cohérence schemé de la table / clé primaire / clé secondaire / liaison
+Isolation => TRANSACTION / ROLLBACK 
+Durabilité => faire ne sorte que toutes les données soient stockées de manières durable 
+
+NoSQL => plus vite 
+moins ACID 
+
+=> regedit
+
+=> linux 
+=> créer fichiers / dossier => disque dur 
+
+fonction de recherche "find" => elle va recherche si elle trouve => créer un système de cache 
+
+"information.txt" => ["src/..." , "usr/..." , "/etc/...."] (30 s)
+
+créer un nouveau fichier information.txt dans toto/
+"information.txt" => ["src/..." , "usr/..." , "/etc/...."] (1 s) 
+
+
+
+windows => demander indexé le contenu d'un dossier 
+
+base de données colonnes => nom de tout le contenu du dossier bien classé !! 
+
+=> site internet => https://www.algolia.com/fr
+
+=> indexé très proprement tous le contenu textuel de ton site 
+
+
+=> ajax / menu d'autocomplétion => https://jqueryui.com/autocomplete/
