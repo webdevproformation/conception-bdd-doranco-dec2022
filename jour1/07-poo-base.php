@@ -58,3 +58,6 @@ $user = new User(2);
 // utiliser les objets 
 
 // https://www.doctrine-project.org/
+
+
+// rdv 14h00 ! bon appétit
