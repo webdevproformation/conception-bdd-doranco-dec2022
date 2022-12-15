@@ -8,7 +8,7 @@ Schéma Entite - Relation
 
 => créer un fichier qui doit avoir l'extension .drawio
 
-Premier exemple 
+Premier exemple : enoncé 
 1 dans l'entreprise, il existe plusieurs services 
 2 Chaque service est caractérisé par un nom et un code service 
 3 Chaque employé est affecté à un et un seul service 
@@ -23,8 +23,26 @@ Premier exemple
 service 
 employé
 
+1.1 Class d'Entité :
+objet qui ont les mêmes caractéristique (attributs) et qui joue le même rôle 
 
-- 2 Attribut des entités
+user => gestionnaire du site / administrateur / rédacteur / utilisateur inscrit à la newsletter 
+les mêmes attributs => pour certain vous allez avoir une fonction / rôle différent 
+
+1.2 Occurence de l'entité / Instance de l'entité  => une ligne dans notre Entite / jeu de donnée 
+user 
+1 / Alain / Admin 
+2 / Céline / Rédacteur
+
+- 2 Attribut des entités ( == COLUMN )
+une liste d'information que l'on va vouloir stocker dans l'entité
+- propriété / caractéristique / qualité de l'entité 
+
+- 2.1 Domaine des attributs => l'ensemble des valeurs possibles d'une attribut ( == Type de la COLUMN VARCHAR / INT / DATETIME / ENUM() )
+
+- 2.2 Attribut spécial => clé / identifiant ( === Clé Primaire / Primary KEY )
+colonne spéciale qui va permettre de trouver / de distinguer de manière unique et sans ambiguité une OCCURANCE de l'Entité 
+
 
 - 3 Association
 
