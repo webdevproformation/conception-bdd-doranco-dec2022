@@ -45,10 +45,28 @@ colonne spéciale qui va permettre de trouver / de distinguer de manière unique
 
 
 - 3 Association
+verbe qui va relier deux entités 
 
 - 4 Attribut des associations
+l'association peut contenir des caractériques => dépendre des deux entités 
 
 - 5 Cardinalités
+
+pour une instance / occurrence d'une entité on peut associer combien de fois à l'autre entité
+dispose de 2 valeurs
+minimum 0 , 1
+maximum 1 , n 
+
+cardinalités à ajouter sur les traits de l'association (des deux cotés)
+écrit dans le texte // logique (si c'est pas noté dans le texte )
+
+utiliser une instance de l'entité 
+1,n
+1,1
+0,1
+0,n 
+
+
 
 
 
