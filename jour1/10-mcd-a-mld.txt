@@ -1,0 +1,8 @@
+
+MCD => explication des données métiers
+
+Entite1 ---  carnalite --- relation  --- carnalite --- Entité2
+
+MLD => Modèle Logique des Données 
+
+Entités du MCD => Table dans le MLD 

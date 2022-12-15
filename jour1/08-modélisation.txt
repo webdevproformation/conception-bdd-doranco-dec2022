@@ -19,4 +19,28 @@ Besoin :
 7 Chaque employé a un matricule , un nom , une adresse et une fonction
 8 Chaque service a un code service, un nom et un chef 
 
+=> 3 entités 
+projet
+entite 
+service
+
 modèliser le besoin suivant sous forme d'Entite / Association via Looping ou extension Visual Studio utilisée ce matin 
+
+matricule = A123456 = lettre + id 
+
+trigger 
+
+
+--
+-- Déclencheurs `user`
+--
+DELIMITER $$
+CREATE TRIGGER `remplir_matricule` BEFORE INSERT ON `user` FOR EACH ROW SET NEW.matricule = CONCAT("A","-",YEAR(NOW()), "-",UPPER(NEW.service))
+$$
+DELIMITER ;
+
+MCD => réfléchir la logique métier 
+
+Transformer le MCD => MLD Modèle Logique de Données ( comment structurer les tables dans une base )
+
+rdv 16h00 @ toute suite !!
