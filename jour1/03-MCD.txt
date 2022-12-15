@@ -52,3 +52,19 @@ colonne spéciale qui va permettre de trouver / de distinguer de manière unique
 
 
 
+- convention de nommage = permet de reprendre un travail plus facilement 
+Nom de l'Entité => en anglais et au pluriel et totalement en majuscule
+SERVICES 
+EMPLOYEES 
+
+Attributs  => en anglais et minuscule 
+attribut clé => id 
+str_firstname
+date_creation => snake_case 
+int_width => 
+float_price 
+
+
+
+
+
