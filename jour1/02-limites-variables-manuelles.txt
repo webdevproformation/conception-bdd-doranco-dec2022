@@ -386,5 +386,13 @@ base de données colonnes => nom de tout le contenu du dossier bien classé !!
 
 => indexé très proprement tous le contenu textuel de ton site 
 
-
 => ajax / menu d'autocomplétion => https://jqueryui.com/autocomplete/
+
+Indexation prend de la place en + 
+
+=> http://les.pages.perso.chez.free.fr/mysql-index-et-contraintes-integrite-par-cles-etrangeres.io
+
+requete SELECT * WHERE nom = "Yves"
+
+EXPLAIN SELECT * WHERE nom = "Yves"
+EXPLAIN SELECT * WHERE nomIndexe = "Yves"
