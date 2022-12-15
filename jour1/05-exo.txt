@@ -1,0 +1,30 @@
+
+Dans un batiment, il y a 10 salles de réunion.
+
+Chaque salle dispose de :
+- nombre des place assises : allant de 2 à 50
+- une localisation dans la batiment : par exemple Etage 1 salle n°10
+- un nom : Salle Varsovie, Salle Bruxelles (nom d'une ville)
+- d'équipements : Ecran et/ou tableau et/ou PC
+- Certaines salles de réunion ne sont réservables que par tranche de 2 heures sinon les autres par tranche de 1 heure.
+
+On distingue deux types d'utilisateur :
+- collaborateur : 
+	- il peut réserver une ou plusieurs salle de réunion à partir de maintenant. 
+	- il peut modifier / supprimer ses réservations mais ne peut pas modifier les réservations réalisées par d'autres collaborateurs
+	- Enfin il peut voir l'occupation d'une salle : voir si une salle est réservée sur la tranche horaire souhaitée
+
+- administrateur : 
+	- il peut réserver modifier supprimer ses réservations ainsi que celle de tous les autres collaborateurs
+	- il peut réaliser les paramétrages : créer une salle et lui donner ses attributs ( nombre de place assises / localisation / nom / équipement)
+	- il peut donner une amplitude horaire pour les réservations (2 heures ou 1 heure) et une heure minimum de réservation : 8h00 et une heure max 20h00
+
+Enfin, il est possible de faire des commandes de restauration :
+Le catalogue de prestation restauration comporte 3 références :
+- Thermos de café - prix 10
+- Thermos de Thé - prix 8
+- Vinoiserie - prix 12
+
+-----------------
+
+à partir de ce texte réaliser le MCD 
