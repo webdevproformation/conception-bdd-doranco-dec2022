@@ -1,0 +1,36 @@
+MCD : Modèle Conception des Données 
+Schéma Entite - Relation 
+
+=> client qui va venir vous voir et créer une base données 
+=> décrire son besoin 
+
+=> installer extension Draw.io Integration - v1.6.4 - Henning Dieterichs
+
+=> créer un fichier qui doit avoir l'extension .drawio
+
+Premier exemple 
+1 dans l'entreprise, il existe plusieurs services 
+2 Chaque service est caractérisé par un nom et un code service 
+3 Chaque employé est affecté à un et un seul service 
+4 Chaque employé va être désigné par un matricule / prénom / nom / fonction
+
+à partir de ce texte => modéliser / conceptualiser une base de données sous forme graphique
+
+- 1 Entite 
+=> objet qui existe dans la réalité / objet abstrait sur lesquels on veut stocker des informations
+
+=> stocker des informations sur 2 concepts / idées => ENTITE (== TABLE)
+service 
+employé
+
+
+- 2 Attribut des entités
+
+- 3 Association
+
+- 4 Attribut des associations
+
+- 5 Cardinalités
+
+
+

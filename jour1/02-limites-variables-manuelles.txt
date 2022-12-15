@@ -396,3 +396,5 @@ requete SELECT * WHERE nom = "Yves"
 
 EXPLAIN SELECT * WHERE nom = "Yves"
 EXPLAIN SELECT * WHERE nomIndexe = "Yves"
+
+rdv 10h40 bon café !!! 
