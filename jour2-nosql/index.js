@@ -21,7 +21,7 @@ const User = model("users" , schemaUser ); // nom de la table
 
 // ajouter un premier utilisateur 
 
-/* const user = new User({ prenom : "Alain" , nom : "DOE" , age : 32 , isAdmin : true }); // INSERT 
+/* const user = new User({ prenom : "Alain" , nom : "DOE" , age : 32 , isAdmin : true }); // INSERT INTO users (prenom, nom, age, isAdmin ) VALUES ("Alain" , "DOE", 32 , TRUE)
 
 user.save();  */
 
@@ -94,3 +94,13 @@ getAll();
 }
 
 generer()->nom  */
+
+// créer un nouveau fichier exo.js 
+// etablier une connection avec la base de données mongoDB
+// créer une table article qui contient 3 colonnes titre String contenu String et commentaire chiffre
+
+/* 
+ajouter dans cette table la ligne suivante
+titre : Article 1
+contenu : lorem ipsum 
+commentaire : 4  */
