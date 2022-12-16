@@ -1,0 +1,44 @@
+le client vient vous voir avec un fichier excel 
+
+=> transforme en base de données ( fiable )
+
+=> il existe une méthode => normalisation qui permet à partir d'une 
+table universelle => qui permet de la transforme en table pour base de données 
+
+=> Normalisation (Méthode Merise)
+
+=> plusieurs étapes qui vont permettre de transformer la table universelle 
+=> en une base de données 
+=> ajouter des conditions de plus en plus forte 
+
+=> conditions qui au fur et à mesure vont se cumuler 
+
+=> table universelle (départ)
+
+=> 1er condition à appliquer sur la table universelle
+
+=> table soit considérée en 1ère forme => IL FAUT QUE TOUTES SES VALEURS SOIENT ATOMIQUES
+
+=> table a été transformée 1ère forme normale (1NF)
+
+=> 2ème condition à appliquer sur la table qui en 1ère forme normale  (1NF)
+
+=> table soit considérée en 2ème forme => 
+- elle soit en 1er forme 
+- IL FAUT QUE TOUTES LES COLONNES NON CLE SOIENT DEPENDENT COMPLETEMENT D'UNE CLE  (un ou plusieurs colonnes CLE COMPOSITE )
+
+=> table a été transformée 2ème forme normale (2NF)
+
+=> 3ème condition à appliquer sur la table en 2ème forme normale (2NF)
+
+=> table soit considérée en 3ème forme =>
+- elle soit en 1er forme 
+- elle soit en 2eme forme 
+- IL FAUT QUE LES COLONNES NON CLE NE SOIENT PAS DEPENDANTES TRANSITIVEMENT DE LA CLE PRIMAIRE 
+
+=> table a été transformée 3ème forme normale (3NF) .... suffisant pour avoir une base de donnée robuste 
+
+=> STOP 
+
+
+=> mais il existe jusqu'à 5 formes normales 
