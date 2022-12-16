@@ -1,4 +1,4 @@
-const { connect } = require("mongoose")
+const { connect , Schema, model } = require("mongoose")
 const mongoose = require("mongoose")
 
 // javascript 
@@ -10,8 +10,43 @@ connect( urlbdd , { useNewUrlParser : false  } )
         .catch( (ex) => { console.log(new Error(ex)) } );
 
 
+const schemaUser = new Schema({ // structure de la table User
+    prenom : String,
+    nom : String ,
+    age : Number ,
+    isAdmin : Boolean
+}) 
 
-        
+const User = model("users" , schemaUser ); // nom de la table
+
+// ajouter un premier utilisateur 
+
+/* const user = new User({ prenom : "Alain" , nom : "DOE" , age : 32 , isAdmin : true }); // INSERT 
+
+user.save();  */
+
+// update 
+
+async function update(){
+    const user = await User.findOne({ nom : "DOE" }) // WHERE 
+    user.nom = "Dupont"; 
+    user.save(); 
+}
+update()
+
+
+// CREATE TABLE users (
+// prenom VARCHAR()
+// nom    VARCHAR()
+// age    INT
+// isAdmin BOOLEAN
+//)
+
+// npm i -g nodemon
+// cd jour2-nosql
+// nodemon index.js
+
+
 // atlas mongodb => https://www.mongodb.com/
 // login : doranco
 // password : 7XVSxxaCeXYooMcL
