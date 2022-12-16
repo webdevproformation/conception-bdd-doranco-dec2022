@@ -1,0 +1,23 @@
+Malik HARRIZ
+malik.h@webdevpro.net
+
+Conception de base de données
+
+------------------
+
+support de cours :
+url : https://formation.webdevpro.net/sgbd
+login : sgbd
+password : sgbd
+
+------------------
+
+toutes les notes de cours vont être partagées sur un github
+
+https://github.com/webdevproformation/conception-bdd-doranco-dec2022
+
+Questions ?? sur les point vus ensemble hier ????
+
+=> excellent cours rentre plus dans les détails :
+https://cyril-gruau.developpez.com/merise/
+
