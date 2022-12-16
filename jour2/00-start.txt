@@ -21,3 +21,69 @@ Questions ?? sur les point vus ensemble hier ????
 => excellent cours rentre plus dans les détails :
 https://cyril-gruau.developpez.com/merise/
 
+Pour concevoir une base de données => problème à modéliser =>  méthode MCD (Entité Association Attributs Carnalités) 
+                                                                Concept / la logique métier
+                                                            => MLD Modèle Logique des Données => aspect de la base de données 
+                                                                l'ensemble des tables que l'on va avoir à stocker dans la base 
+                                                                pour stocker correctement toutes les données du problèmes 
+                                                            => requêtes SQL 
+
+MySQL type   => https://dev.mysql.com/doc/refman/8.0/en/data-types.html
+SQLite type  => https://www.sqlite.org/datatypes.html
+MariaDB type => https://mariadb.com/kb/en/data-types/
+Oracle
+.... 
+
+
+CREATE TABLE ....
+ALTER TABLE ... ajouter clé primaire / clé secondaire ....
+PRIMARY KEY 
+FOREIGN KEY 
+
+=> MPD => Modèle Physique des Données => on est dans un SGBD 
+on vient de mettre en place la structure des tables et de la base de données dans une SGBD choisi 
+
+
+------------------
+
+Notre client => travaille sur un tableur (Excel) => il a créé un tableau qui lui permet de travailler au quotidien 
+Et il décide de se rapprocher de vous => 
+car il se rend compte que parfois / souvent lorsqu'il doit ajouter des informations => ça va 
+mais si il doit supprimer des lignes / mettre à une information / insérer => il a des problèmes (il doit faire plusieurs modifications dans son fichier Excel ) les modifications soient cohérentes
+
+perd de l'information 
+
+=> Normalisation !!! => table universelle (le fichier excel)
+comment la découper pour que CRUD entraine le moins d'incohérence ! 
+
+
+base de données 
+système d'exploitation 
+
+4 opérations de base que l'on réalise sur n'importe quelle concept géré par ce système 
+
+    Base   /  fichier Excel / OS  = > tout ce qui permet de stocker 
+
+base de données 
+    TABLE => onglet / dossier
+        C create CREATE TABLE nom 
+        R read   SHOW nom 
+        U update ALTER TABLE NAME nom2
+        D Delete DROP TABLE nom 
+
+    COLUMN
+        C => colonne  / fichier 
+            CREATE TABLE nom ( id INT NOT NULL AUTO_INCREMENT PRIMARY KEY )
+            ALTER TABLE nom ADD nouvelle_colon VARCHAR(200)
+        R   EXPLAIN 
+        U   ALTER TABLE MODIFY nom ...
+        D   ALTER TABLE DROP nom 
+
+    LIGNE => ligne / le contenu du fichier 
+        C  INSERT INTO  
+        R  SELECT FROM WHERE .... JOIN ON / LIMIT / GROUP BY 
+        U  UPDATE nom SET ... =  .... WHERE 
+        D  DELETE FROM nom WHERE condition 
+
+
+
