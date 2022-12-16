@@ -1,0 +1,58 @@
+MongoDB 
+
+=> noSQL 
+
+comme ça fonctionne => javascript 
+
+=> utilise beaucoup de type de base de données pour créer des API 
+
+rdv 15h05 bon café !
+
+
+Base de données relations => BASE / TABLE / COLONNE / LIGNE 
+
+MCD / MLD / MPD 
+
+Merise 
+
+=> Langage SQL gérer / réaliser le CRUD pour l'ensemble de concepts 
+
+
+----------------------
+
+NoSQL => Not Only SQL => BASE / Collection / Documents => rappel du JSON 
+
+[
+    { id : 1 , nom : "Alain" , isAdmin : true  },
+    { id : 2 , nom : "Beatrice" , isAdmin : false  }
+]
+
+
+=> on utilise pas le langage SQL pour réaliser un CRUD 
+
+=> table => au préalable créer une base / table / structure (schéma) / ligne 
+
+=> si vous créer une ligne => ça va créer base / table / structure 
+
+Terminal > Nouveau terminal > Command Prompt
+node -v 
+
+'node' n’est pas reconnu en tant que commande interne
+ou externe, un programme exécutable ou un fichier de commandes.
+
+node n'est pas installé => https://nodejs.org/
+
+v18.12.1
+
+npm i -g nodemon => 
+=> nodemon logiciel qui permet de travailler facilement avec node 
+
+créer un dossier jour2-nosql
+
+cd jour2-nosql
+
+npm init --yes
+créer un fichier package.json (fichier descriptif du projet)
+npm i mongoose
+
+créer un fichier index.js 
