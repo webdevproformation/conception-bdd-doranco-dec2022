@@ -32,7 +32,37 @@ async function update(){
     user.nom = "Dupont"; 
     user.save(); 
 }
-update()
+
+// delete ()
+
+/* async function supprimer(){
+    const user = await User.findOne({ nom : "Dupont" }) // WHERE 
+    user.remove();
+}
+supprimer(); */
+
+
+/* [
+    { prenom : "Alain" , nom : "DOE" , age : 32 , isAdmin : true },
+    { prenom : "benoit" , nom : "DOE" , age : 40 , isAdmin : false },
+    { prenom : "Celine" , nom : "Dupont" , age : 12 , isAdmin : false }
+].forEach((etudiant) => {
+    const user = new User(etudiant); // INSERT 
+    user.save();
+})
+
+const user = new User({ prenom : "Alain" , nom : "DOE" , age : 32 , isAdmin : true }); // INSERT 
+
+user.save(); */
+
+// GUI => grafikal user interface 
+// CUI => Client user interface
+
+async function getAll(){
+    const users = await User.find() // WHERE 
+    console.log(users);
+}
+getAll();
 
 
 // CREATE TABLE users (
